@@ -17,11 +17,11 @@
   margin-bottom: 50px;
 }
 
-.links a{
+.link{
   display: inline-block;
   padding: 24px 49px;
 }
 
-.links a:not(:last-child) {
+.link:not(:last-child) {
   margin-right: 25px;
 }
