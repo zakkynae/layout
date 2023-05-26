@@ -10,11 +10,14 @@
 }
 
 .main-title {
+  margin: 0;
   margin-bottom: 40px;
 }
 
 .paragraph {
   width: 872px;
+}
+.paragraph:not(:last-child) {
   margin-bottom: 40px;
 }
 
@@ -28,12 +31,15 @@
   margin-bottom: 40px;
 }
 
-.grey-block .paragraph{
+.grey-block .paragraph {
   width: 692px;
+}
+
+.grey-block .paragraph:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.second-heading{
+.second-heading {
   margin-bottom: 10px;
 }
 
@@ -49,7 +55,7 @@
   margin-bottom: 20px;
 }
 
-.images-without-caption{
+.images-without-caption {
   margin-bottom: 40px;
 }
 
@@ -58,5 +64,3 @@
   margin-bottom: 40px;
   width: 872px;
 }
-
-
