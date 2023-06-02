@@ -1,22 +1,149 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 a {
-	color: inherit;
-	text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 body {
-	font-family: Arial, Verdana, sans-serif;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1170px;
+  max-width: 100%;
+}
+
+.logo {
+  display: inline-block;
+  margin: 50px 0 25px;
+}
+
+.link-main {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+  padding-left: 52px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #3f2aff;
+  background-image: url("../img/стрелочка.svg");
+  background-position: left center;
+  background-size: 45px 23px;
+  background-repeat: no-repeat;
+}
+
+.main-header {
+  margin: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
+  color: #3f2aff;
+}
+
+.list-cards {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+}
+
+.list-item-card {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 25px;
+  padding-top: 205px;
+  width: 572px;
+  height: 505px;
+  font-size: 14px;
+  background-color: #fff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+.list-item-card:nth-child(odd) {
+  margin-right: 25px;
+}
+
+.list-item-card:nth-child(-n+2) {
+  margin-bottom: 25px;
+}
+
+.first-card {
+  background-image: url("../img/введение.jpg");
+  background-repeat: no-repeat;
+}
+
+.second-card {
+  background-image: url("../img/html.jpg");
+  background-repeat: no-repeat;
+}
+
+.third-card {
+  background-image: url("../img/css.jpg");
+  background-repeat: no-repeat;
+}
+
+.fourth-card {
+  background-image: url("../img/макетом.jpg");
+  background-repeat: no-repeat;
+}
+
+.second-header {
+  margin: 0;
+  margin-bottom: 2px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  color: #3f2aff;
+}
+
+.list-themes {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.list-item-themes {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+}
+
+.counter-section {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  font-weight: 400;
+  font-size: 40px;
+  color: #eaeaea;
+}
+
+.button {
+  width: 274px;
+  height: 70px;
+  margin-bottom: 50px;
+  margin-left: 447px;
+  border: 2px solid #3f2aff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: #3f2aff;
 }
