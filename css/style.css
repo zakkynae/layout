@@ -23,13 +23,14 @@ body {
 
 .container {
   margin: 0 auto;
+  padding: 50px 0;
   width: 1170px;
   max-width: 100%;
 }
 
 .logo {
   display: inline-block;
-  margin: 50px 0 25px;
+  margin-bottom: 25px;
 }
 
 .link-main {
@@ -125,6 +126,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 33px;
+  color: #333;
 }
 
 .counter-section {
@@ -137,10 +139,9 @@ body {
 }
 
 .button {
-  width: 274px;
-  height: 70px;
-  margin-bottom: 50px;
-  margin-left: 447px;
+  display: block;
+  margin: 0 auto;
+  padding: 24px 75px;
   border: 2px solid #3f2aff;
   text-align: center;
   font-weight: 700;
